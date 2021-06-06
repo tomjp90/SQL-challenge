@@ -1,6 +1,8 @@
 # SQL Employee Database
 
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about employee data. In other words, you will perform:
+In this assignment, a database is designed first with an Entity Relationship Diagram. Queries then create tables in a PostgreSQL database where CSV data is import the data. Queries then answer questions about the employee data. A connection between Python and the database is then created to allow complex queries.
+
+In other words, the assignment perform:
 1. Data Engineering
 
 3. Data Analysis
@@ -8,6 +10,11 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 ## Technologies Used
 - PostgreSQL
 - SQLAlchemny
+- Python
+- Pandas
+- Numpy
+- Psycopg2
+- Matplotlib
 
 ## Steps Undertaken
 
@@ -23,6 +30,8 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
  * Using the ERD, create a table schema for each of the six CSV files. Specify data types, primary keys, foreign keys, and other constraints.
 
  * Each CSV file is then imported the corresponding SQL table.
+
+The queries to create the tables are [here](https://github.com/tomjp90/sql-challenge/blob/main/schema.sql)
 
 #### Data Analysis
 
