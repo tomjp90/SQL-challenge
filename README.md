@@ -20,7 +20,7 @@ Note: You may hear the term "Data Modeling" in place of "Data Engineering," but 
 #### Data Modeling
 
 Inspect the CSVs and sketch out an ERD of the tables.
- [ERD](DBD.png).
+ ![ERD](DBD.png).
 
 #### Data Engineering
 
