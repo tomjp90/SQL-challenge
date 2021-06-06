@@ -19,7 +19,7 @@ Note: You may hear the term "Data Modeling" in place of "Data Engineering," but 
 
 #### Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables.
+Inspect the CSVs and sketch out an Entity Relationship Diagram (ERD) of the tables.
  ![ERD](DBD.png).
 
 #### Data Engineering
