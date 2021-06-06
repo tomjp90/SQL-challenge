@@ -18,14 +18,14 @@ In other words, the assignment perform:
 
 ## Steps Undertaken
 
-#### Data Modeling
+### Data Modeling
 
  Inspect the CSVs and sketch out an Entity Relationship Diagram (ERD) of the tables.
  
  ![ERD](DBD.png).
 
 
-#### Data Engineering
+### Data Engineering
 
  * Using the ERD, create a table schema for each of the six CSV files. Specify data types, primary keys, foreign keys, and other constraints.
 
@@ -33,7 +33,7 @@ In other words, the assignment perform:
 
 The queries to create the tables are [here](https://github.com/tomjp90/sql-challenge/blob/main/schema.sql)
 
-#### Data Analysis
+### Data Analysis
 
 Once the database is created, the following queries are made:
 
@@ -55,7 +55,7 @@ Once the database is created, the following queries are made:
 
 The queries are found  [here](https://github.com/tomjp90/sql-challenge/blob/main/queries.sql)
 
-## Bonus
+## SQLAlchemy
 
 Use SQLAlchemy to import the SQL database into Pandas. SQLAlchemy is a library that facilitates the communication between Python programs and databases.
 
